@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f8ff; /* Light blue background */
+    background-color: #f4f4f9; /* Light gray background */
     color: #333;
     display: flex;
     flex-direction: column;
@@ -10,7 +10,7 @@ body {
 }
 
 header {
-    background-color: #ff6347; /* Tomato red header */
+    background-color: #343a40; /* Dark gray header */
     color: #fff;
     padding: 20px 10px;
     text-align: center;
@@ -42,7 +42,7 @@ section {
 section h2 {
     margin-top: 0;
     font-size: 2em;
-    color: #ff6347; /* Tomato red for section headings */
+    color: #343a40; /* Dark gray for section headings */
 }
 
 section p, section ul {
@@ -65,23 +65,25 @@ section ul li {
 section ul li a {
     display: inline-block;
     text-decoration: none;
-    color: #fff; /* White text */
-    background-color: #ff1493; /* Deep pink background */
-    padding: 15px 25px;
-    border-radius: 12px;
-    font-size: 1.2em;
+    color: #ffffff; /* White text */
+    background-color: #007bff; /* Professional blue background */
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 1.1em;
     transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Funky shadow */
+    width: 250px; /* Fixed width for consistent box size */
+    text-align: center; /* Center-align text within the link box */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
 }
 
 section ul li a:hover {
-    background-color: #32cd32; /* Lime green background on hover */
-    color: #000; /* Black text on hover */
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4); /* Darker shadow on hover */
+    background-color: #0056b3; /* Darker blue background on hover */
+    color: #ffffff; /* White text on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Darker shadow on hover */
 }
 
 footer {
-    background-color: #ff6347; /* Tomato red footer */
+    background-color: #343a40; /* Dark gray footer */
     color: #fff;
     text-align: center;
     padding: 10px 0;
@@ -89,13 +91,13 @@ footer {
 }
 
 footer a {
-    color: #ffcc00; /* Yellow for footer links */
+    color: #f8f9fa; /* Light gray for footer links */
     text-decoration: none;
 }
 
 footer a:hover {
     text-decoration: underline;
-    color: #ffd700; /* Lighter yellow on hover */
+    color: #e9ecef; /* Slightly lighter gray on hover */
 }
 
 @media (min-width: 600px) {
@@ -121,6 +123,6 @@ footer a:hover {
     }
 
     section ul li a {
-        font-size: 1.3em;
+        font-size: 1.2em;
     }
 }
