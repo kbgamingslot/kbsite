@@ -60,19 +60,21 @@ section ul li {
 }
 
 section ul li a {
-    display: block;
+    display: inline-block;
     text-decoration: none;
-    color: #0044cc; /* Dark blue text */
+    color: #007bff; /* Bright blue text */
     background-color: #e0f7fa; /* Light cyan background */
-    padding: 10px;
+    padding: 10px 20px;
     border-radius: 4px;
     font-size: 1.1em;
-    transition: background-color 0.3s, color 0.3s;
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
 }
 
 section ul li a:hover {
     background-color: #b2ebf2; /* Lighter cyan on hover */
     color: #003366; /* Darker blue text on hover */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* Darker shadow on hover */
 }
 
 footer {
