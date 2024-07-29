@@ -10,7 +10,7 @@ body {
 }
 
 header {
-    background-color: #0044cc; /* Dark blue header */
+    background-color: #ff6347; /* Tomato red header */
     color: #fff;
     padding: 20px 10px;
     text-align: center;
@@ -42,7 +42,7 @@ section {
 section h2 {
     margin-top: 0;
     font-size: 2em;
-    color: #0044cc; /* Dark blue for section headings */
+    color: #ff6347; /* Tomato red for section headings */
 }
 
 section p, section ul {
@@ -53,32 +53,35 @@ section p, section ul {
 section ul {
     list-style-type: none;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center-align the links */
 }
 
 section ul li {
-    margin: 10px 0;
+    margin: 15px 0;
 }
 
 section ul li a {
     display: inline-block;
     text-decoration: none;
-    color: #007bff; /* Bright blue text */
-    background-color: #e0f7fa; /* Light cyan background */
-    padding: 10px 20px;
-    border-radius: 4px;
-    font-size: 1.1em;
+    color: #fff; /* White text */
+    background-color: #ff1493; /* Deep pink background */
+    padding: 15px 25px;
+    border-radius: 12px;
+    font-size: 1.2em;
     transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Funky shadow */
 }
 
 section ul li a:hover {
-    background-color: #b2ebf2; /* Lighter cyan on hover */
-    color: #003366; /* Darker blue text on hover */
-    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* Darker shadow on hover */
+    background-color: #32cd32; /* Lime green background on hover */
+    color: #000; /* Black text on hover */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4); /* Darker shadow on hover */
 }
 
 footer {
-    background-color: #0044cc; /* Dark blue footer */
+    background-color: #ff6347; /* Tomato red footer */
     color: #fff;
     text-align: center;
     padding: 10px 0;
@@ -118,6 +121,6 @@ footer a:hover {
     }
 
     section ul li a {
-        font-size: 1.2em;
+        font-size: 1.3em;
     }
 }
