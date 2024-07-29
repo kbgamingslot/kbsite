@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #f0f8ff; /* Light blue background */
     color: #333;
     display: flex;
     flex-direction: column;
@@ -10,7 +10,7 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #0044cc; /* Dark blue header */
     color: #fff;
     padding: 20px 10px;
     text-align: center;
@@ -34,7 +34,7 @@ main {
 section {
     padding: 20px;
     margin: 20px 0;
-    background-color: #fff;
+    background-color: #ffffff; /* White section background */
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -42,7 +42,7 @@ section {
 section h2 {
     margin-top: 0;
     font-size: 2em;
-    color: #e74c3c;
+    color: #0044cc; /* Dark blue for section headings */
 }
 
 section p, section ul {
@@ -62,8 +62,8 @@ section ul li {
 section ul li a {
     display: block;
     text-decoration: none;
-    color: #333;
-    background-color: #e74c3c;
+    color: #0044cc; /* Dark blue text */
+    background-color: #e0f7fa; /* Light cyan background */
     padding: 10px;
     border-radius: 4px;
     font-size: 1.1em;
@@ -71,12 +71,12 @@ section ul li a {
 }
 
 section ul li a:hover {
-    background-color: #c0392b;
-    color: #fff;
+    background-color: #b2ebf2; /* Lighter cyan on hover */
+    color: #003366; /* Darker blue text on hover */
 }
 
 footer {
-    background-color: #333;
+    background-color: #0044cc; /* Dark blue footer */
     color: #fff;
     text-align: center;
     padding: 10px 0;
@@ -84,12 +84,13 @@ footer {
 }
 
 footer a {
-    color: #e74c3c;
+    color: #ffcc00; /* Yellow for footer links */
     text-decoration: none;
 }
 
 footer a:hover {
     text-decoration: underline;
+    color: #ffd700; /* Lighter yellow on hover */
 }
 
 @media (min-width: 600px) {
