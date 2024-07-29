@@ -56,11 +56,23 @@ section ul {
 }
 
 section ul li {
+    margin: 10px 0;
+}
+
+section ul li a {
+    display: block;
+    text-decoration: none;
+    color: #333;
     background-color: #e74c3c;
-    color: #fff;
-    margin: 5px 0;
     padding: 10px;
     border-radius: 4px;
+    font-size: 1.1em;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+section ul li a:hover {
+    background-color: #c0392b;
+    color: #fff;
 }
 
 footer {
@@ -91,16 +103,6 @@ footer a:hover {
         flex: 1 1 calc(48% - 20px);
         margin: 10px;
     }
-
-    section ul {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    section ul li {
-        flex: 1 1 calc(48% - 10px);
-        margin: 5px;
-    }
 }
 
 @media (min-width: 900px) {
@@ -112,7 +114,7 @@ footer a:hover {
         font-size: 1.5em;
     }
 
-    section ul li {
-        flex: 1 1 calc(30% - 10px);
+    section ul li a {
+        font-size: 1.2em;
     }
 }
